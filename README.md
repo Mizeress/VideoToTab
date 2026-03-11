@@ -4,9 +4,11 @@ Accept a video of a person playing guitar as input and use the visual &amp; audi
 ## Components
 - Hand Pose Tracking
   - MediaPipe Hands (Hand tracking library) and/or YOLO for tracking hand/guitar
-  - Use this data to determine what frets are being pressed
-    - Use position relative to strings, nut/bridge, visible frets, and other data points
-   
+  - Use this data combined with fretboard data to determine what frets are being pressed
+
+- Fretboard Detection
+  - Detect the edge of the fretboard, the nut and/or capo, visible frets, and strings to build a virtual model of the fretboard and map hand tracking data to specific frets. Use a perspective transform to flatten neck to simplify determining fret. 
+
 - String vibration detection
   - Visually identify when a string is vibrating and which string it is
  
