@@ -31,7 +31,7 @@ Accept a video of a person playing guitar as input and use the visual &amp; audi
 - Have a mode for cowboy chords for simple strummed songs that don't require full tabs.
 - Midi export feature
 
-⚖️ Licensing
+## ⚖️ Licensing
 This project is dual-licensed. It is available under the GNU AGPLv3 for open-source use.
 
 Commercial Use: While I believe in Open Source Software, I also think that the strict requirements of copyleft licenses can sometimes be more constraining to software adoption than freeing. I believe that tools such as this should be available in commonly used suites if it is to accomplish the most good. If you wish to use this technology in a proprietary or closed-source product (where AGPLv3 compliance is not possible), please contact sam.mallia101@gmail.com to purchase a separate Commercial License.
